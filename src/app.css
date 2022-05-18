@@ -9,8 +9,54 @@ body {
   font-family: 'Epilogue';
 }
 
+/*Typography*/
+
+.learn-more {
+color: #FAFAFA;
+font-family: Epilogue;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: -0.25px;
+text-align: center;
+
+}
+
+h1 {
+ 
+font-family: Epilogue;
+font-size: 80px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: -1.1111111640930176px;
+}
+
+p {
+
+font-family: Epilogue;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0px;
+color: #686868;
+}
 
 
+
+
+/*Layout*/
+
+.learn-more {
+height: 56px;
+width: 163px;
+border-radius: 15px;
+background: #151515;
+margin-top: 50px;
+}
+
+p {
+  margin-top: 30px;
+}
 
 header {
   
@@ -116,6 +162,10 @@ header {
   top: -7px;
 }
 
+.main-left {
+  margin-top: 200px;
+  margin-left: 130px;
+}
 
 .main {
   display: flex;
@@ -125,10 +175,20 @@ header {
   
 }
 
-.desktop-image {
+.desktop-image { 
   height: 640px;
   width: 480px;
-  margin-left: 500px;
+  margin-left: 200px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: space-between;
+  height: 24px;
+  margin-top: 100px;
 }
 
 

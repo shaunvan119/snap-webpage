@@ -3,12 +3,14 @@ import MainContent from "./MainContent";
 
 
 
+
 const App = () => {
   return (
    
       <div className="wrapper">
         <Navbar />
         <MainContent/>
+       
       </div>
       
    
