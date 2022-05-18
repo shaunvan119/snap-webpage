@@ -11,25 +11,7 @@ export const menuItems = [
       {
         title: "Calender",
         url: "/web-dev",
-        submenu: [
-          {
-            title: "Frontend",
-            url: "/frontend",
-          },
-          {
-            title: "Backend",
-            submenu: [
-              {
-                title: "NodeJS",
-                url: "/node",
-              },
-              {
-                title: "PHP",
-                url: "/php",
-              },
-            ],
-          },
-        ],
+        
       },
       {
         title: "Reminders",
@@ -46,11 +28,15 @@ export const menuItems = [
     // url: "/about",
     submenu: [
       {
-        title: "Who we are",
+        title: "History",
         url: "/who-we-are",
       },
       {
-        title: "Our values",
+        title: "Our Team",
+        url: "/our-values",
+      },
+      {
+        title: "Blog",
         url: "/our-values",
       },
     ],
