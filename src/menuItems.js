@@ -5,20 +5,21 @@ export const menuItems = [
     url: "/services",
     submenu: [
       {
-        title: "Todo List",
+        title: "🗓️ Todo List",
         url: "/web-design",
+        
       },
       {
-        title: "Calender",
+        title: "📅 Calender",
         url: "/web-dev",
         
       },
       {
-        title: "Reminders",
+        title: "🔔 Reminders",
         url: "/seo",
       },
       {
-        title: "Planning",
+        title: "⏰ Planning",
         url: "/seo",
       },
     ],

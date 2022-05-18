@@ -2,16 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Epilogue';
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Epilogue';
 }
 
+
+
+
 header {
+  
   height: 58px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  color: #212529;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  
 }
 
 .nav-area {
@@ -23,12 +33,6 @@ header {
   height: 58px;
 }
 
-.logo {
-  text-decoration: none;
-  font-size: 25px;
-  color: inherit;
-  margin-right: 20px;
-}
 
 .menus {
   display: flex;
@@ -113,13 +117,5 @@ header {
   top: -7px;
 }
 
-/* new addition */
 
-.arrow.custom {
-  display: none;
-}
-@media (min-width: 960px) {
-  .arrow.custom {
-    display: block;
-  }
-}
+
