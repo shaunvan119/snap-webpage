@@ -1,15 +1,17 @@
 import Navbar from "./Navbar";
-import logo from '../assets/logo.svg'
+import MainContent from "./MainContent";
+
+
+
 const App = () => {
   return (
-    <header>
-      <div className="nav-area">
-        <a href="/#" className="logo">
-          <img src={logo} alt="Logo" className="nav--logo" />    
-        </a>
+   
+      <div className="wrapper">
         <Navbar />
+        <MainContent/>
       </div>
-    </header>
+      
+   
   );
 };
 
