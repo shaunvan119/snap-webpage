@@ -9,9 +9,11 @@ export default function MainContent() {
     return (
         <section className="main">
             <div className="main-left">
-                <h1>Make<br/>remote work</h1>
-                <p>Get your team in sync, no matter your location.<br/>Streamline processes, create team rituals, and<br/> watch productivity soar.</p>
+             <div className="remote-work">
+                <h1 className="remote-work-header">Make<br/>remote work</h1>
+                <p className="paragraph">Get your team in sync, no matter your location.<br/>Streamline processes, create team rituals, and<br/> watch productivity soar.</p>
                 <button className="learn-more">Learn More</button>
+            </div>
             <div className='footer-logos'>
                 <img src={databiz} alt="Logo" className="databiz--logo" />    
                 <img src={audiophile} alt="Logo" className="audiophile--logo" />  

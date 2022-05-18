@@ -175,12 +175,11 @@ header {
 .main {
   display: flex;
   flex-direction: row;
-  
-  
-  
+   
 }
 
 .desktop-image { 
+ 
   height: 640px;
   width: 480px;
   margin-left: 200px;
@@ -194,6 +193,90 @@ header {
   justify-content: space-between;
   height: 24px;
   margin-top: 100px;
+}
+
+@media (max-width: 1200px) {
+    .main {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 100%;    
+}
+
+.main-right {
+  display: flex;
+ 
+      margin: 0 auto;   
+}
+
+.main-left {
+      position: absolute;
+                bottom: 0px;
+     
+   
+}
+.remote-work {
+display: flex;
+flex-direction: column;
+position: fixed;
+bottom: 80px;
+}
+
+.footer-logos {
+  display: flex;
+  position: fixed;
+ bottom: 40px;
+ 
+}
+.desktop-image { 
+ display: flex;
+
+  height: 200px;
+width: 300px;
+
+
+border-radius: [object Object]px;
+
+}
+
+.remote-work-header {
+
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: -0.5px;
+text-align: center;
+
+}
+
+.paragraph {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: -1px;
+  margin-bottom: 20px;
+
+}
+
+.learn-more {
+  position: relative;
+  align-items: center;
+  height: 48px;
+  width: 136px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.2222222238779068px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: -1px;
+
+}
+  
 }
 
 
