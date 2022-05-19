@@ -9,10 +9,7 @@ body {
   font-family: 'Epilogue';
 }
 
-.wrapper {
-  
-   
-}
+
 
 /*Typography*/
 
@@ -57,6 +54,12 @@ width: 163px;
 border-radius: 15px;
 background: #151515;
 margin-top: 50px;
+border: none;
+}
+
+.learn-more:hover {
+  background-color: #f2f2f2;
+  color: black;
 }
 
 p {
@@ -175,6 +178,10 @@ header {
 .main {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  max-width: 1440px;
+  
+
    
 }
 
@@ -195,86 +202,86 @@ header {
   margin-top: 100px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 500px) {
     .main {
       display: flex;
       flex-direction: column;
-      width: 100%;
-      max-width: 100%;    
+      position: fixed;
+ 
 }
 
-.main-right {
-  display: flex;
- 
-      margin: 0 auto;   
+.wrapper {
+  max-width: 400px;
+   
 }
 
 .main-left {
-      position: absolute;
-                bottom: 0px;
-     
-   
-}
-.remote-work {
-display: flex;
-flex-direction: column;
-position: fixed;
-bottom: 80px;
-}
-
-.footer-logos {
-  display: flex;
-  position: fixed;
- bottom: 40px;
- 
-}
-.desktop-image { 
- display: flex;
-
-  height: 200px;
-width: 300px;
-
-
-border-radius: [object Object]px;
-
+      margin-left: 0px;
+      margin-top: 50px; 
 }
 
 .remote-work-header {
-
+ 
 font-size: 36px;
 font-weight: 700;
 line-height: 42px;
 letter-spacing: -0.5px;
-text-align: center;
-
 }
 
 .paragraph {
-  font-family: Epilogue;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0px;
-  text-align: center;
-  margin-top: -1px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+
+
+}
+
+
+.desktop-image {
+  margin-left: 0px;
+  margin-top: 5px;
+  height: 330px;
+  width: 375px;
+  left: 0px;
+  top: 75px;
+  
+
 
 }
 
 .learn-more {
-  position: relative;
-  align-items: center;
-  height: 48px;
-  width: 136px;
-  border-radius: 15px;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 26px;
-  letter-spacing: -0.2222222238779068px;
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: -1px;
+height: 48px;
+margin-top: 20px;
+width: 136px;
+left: 119px;
+top: 564px;
+border-radius: 15px;
+border: none;
 
+}
+
+.main-left {
+  margin-top: 70px;
+}
+
+.main-right {
+  margin-top: 25px;
+}
+
+.main-left, .main-right {
+  margin-left: 20px;
+  
+}
+
+.footer-logos {
+  display: none;
+}
+
+.nav-area {
+  display: flex;
+  flex-direction: column;
 }
   
 }
